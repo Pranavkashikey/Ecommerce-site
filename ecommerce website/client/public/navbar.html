@@ -1,82 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link rel="stylesheet" href="navbar.css">
-<body>
-  <script src="https://kit.fontawesome.com/3b1ca000cb.js"></script> 
-  <div class="wholenav">
-    <div class="navbar">
-      <div class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="../src/components/gallery.css" />
+  <link rel="stylesheet" href="../src/components/gallery1.css">
 
-        <header>
-                <nav>
-                    <div class="logo">
-                        <h1>Logo</h1>
-                    </div>
-                    <div class="search__bar__header">
-                        <input type="text">
-                        <input type="button"value ="search";>
-                    </div>
-                    <div class="cart__header__desktop">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span></span>
-                    </div>
-                </nav>
-            </header>
-      </div>
-          <div class="main__navigations">
-              <div class="main__navigations__div">
-                  <ul class="main__navigations__div__ul">
-                      <li class="main__navigations__div__li on__mobile_d_none" style="font-weight: bold;"><a href="">Home</a></li>
-                      <li class="main__navigations__div__li on__mobile_d_none">
-                          <a class="categ" style="font-weight: bold;">Categories <i class="fas fa-caret-down"></i></a>
-                          <div class="div__categories__items">
-                              <p><a href="">Mens</a></p>
-                              <p><a href="">Womens</a></p>
-                              <p><a href="">Kids</a></p>
-                              <p><a href="">Electronics</a></p>
-                              <p><a href="">Footwear</a></p>
-                          </div>
-                      </li>
-                      <li class="main__navigations__div__li save__from__left"><a href="" class="anchor__remains__same" style="font-weight: bold;"><i class="fas fa-user"></i> Profile</a></li>
-                      <li class="main__navigations__div__li">
-                          <a href="" class="anchor__remains__same" style="padding-bottom: 0;font-weight: bold;">login/signIn <i class="fas fa-sign-in"></i> </a>
-                      </li>
-                      <div class="bars save__from__right">
-                          <div class="line1"></div>
-                          <div class="line2"></div>
-                          <div class="line3"></div>
-                      </div>
-                  </ul>
-      
+  <body>
+    <script src="https://kit.fontawesome.com/3b1ca000cb.js"></script>
+    <div class="wholenav">
+      <div class="navbar">
+        <div class="header">
+          <header>
+            <nav>
+              <div class="logo">
+                <h1>Logo</h1>
               </div>
+              <div class="search__bar__header">
+                <input type="text" />
+                <input type="button" value="search" ; />
+              </div>
+              <div class="cart__header__desktop">
+                <i class="fas fa-shopping-cart"></i>
+                <span></span>
+              </div>
+            </nav>
+          </header>
+        </div>
+        <div class="main__navigations">
+          <div class="main__navigations__div">
+            <ul class="main__navigations__div__ul">
+              <li
+                class="main__navigations__div__li on__mobile_d_none"
+                style="font-weight: bold"
+              >
+                <a href="">Home</a>
+              </li>
+              <li class="main__navigations__div__li on__mobile_d_none">
+                <a class="categ" style="font-weight: bold"
+                  >Categories <i class="fas fa-caret-down"></i
+                ></a>
+                <div class="div__categories__items">
+                  <p><a href="">Mens</a></p>
+                  <p><a href="">Womens</a></p>
+                  <p><a href="">Kids</a></p>
+                  <p><a href="">Electronics</a></p>
+                  <p><a href="">Footwear</a></p>
+                </div>
+              </li>
+              <li class="main__navigations__div__li save__from__left">
+                <a
+                  href=""
+                  class="anchor__remains__same"
+                  style="font-weight: bold"
+                  ><i class="fas fa-user"></i> Account</a
+                >
+              </li>
+              <li class="main__navigations__div__li">
+                <a
+                  href=""
+                  class="anchor__remains__same"
+                  style="padding-bottom: 0; font-weight: bold"
+                  >login/signIn <i class="fas fa-sign-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="anchor__remains__same">Orders</a>
+              </li>
+              <li>
+                <a href="anchor__remains__same">Brands</a>
+              </li>
+              <li>
+                <a href="anchor__remains__same">
+                  <i class="fa-solid fa-bell"></i>
+                </a>
+              </li>
+              <div class="bars save__from__right">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </ul>
           </div>
+        </div>
+      </div>
       
+      <div class="mobile__nav__fade__and__show">
+        <div class="mobile__nav__fade__and__show__text">
+          <li><a href="">Home</a></li>
+          <li>
+            <a href="">Categories</a>
+            <div>
+              <p><a href="">Category 1</a></p>
+              <p><a href="">Category 2</a></p>
+              <p><a href="">Category 3</a></p>
+              <p><a href="">Category 4</a></p>
+              <p><a href="">Category 5</a></p>
+            </div>
+          </li>
+        </div>
+      </div>
+      <div class="mobile__nav__fade__and__show__circle"></div>
     </div>
-
-        <div class="mobile__nav__fade__and__show">
-            <div class="mobile__nav__fade__and__show__text">
-                <li><a href="">Home</a></li>
-                <li>
-                    <a href="">Categories</a>
-                    <div>
-                        <p><a href="">Category  1</a></p>
-                        <p><a href="">Category  2</a></p>
-                        <p><a href="">Category  3</a></p>
-                        <p><a href="">Category  4</a></p>
-                        <p><a href="">Category  5</a></p>
-                    </div>
-                </li>
+    
+    <script src="navbar.js"></script>
+    
+    <div class="gallery">
+      <div class="wrap">
+        <div class="girl"></div>
+        <h1>This is Inspired Fashion <span>.</span></h1>
+        <div class="list">
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1501441858156-e505fb04bfbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1502736842968-bcaab72d0700?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1495137675798-14250d1e9070?ixlib=rb-1.2.1&auto=format&fit=crop&w=627&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1524401581-85ee6d7d2ccd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1485014749802-1dba3a03984c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1503043259787-e75660c42572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=672&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1472646189317-418747480cd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1493848015788-45ad0e9f4186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=717&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1521860908473-fa7dae377c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1478604793707-b3a982845b32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+          <div class="item">
+            <div
+              class="img"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1503758425033-cd7b21496e21?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+              "
+            ></div>
+          </div>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="carousel">
+                <input type="radio" name="slides" checked="checked" id="slide-1">
+                <input type="radio" name="slides" id="slide-2">
+                <input type="radio" name="slides" id="slide-3">
+                <input type="radio" name="slides" id="slide-4">
+                <input type="radio" name="slides" id="slide-5">
+                <input type="radio" name="slides" id="slide-6">
+                <ul class="carousel__slides">
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1041/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Tim Marshall</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1043/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Christian Joudrey</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1044/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Steve Carter</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1045/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Aleksandra Boguslawska</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1049/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Rosan Harmens</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1052/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Annie Spratt</span>                            
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>    
+                <ul class="carousel__thumbnails">
+                    <li>
+                        <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-3"><img src="https://picsum.photos/id/1044/150/150" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" alt=""></label>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="mobile__nav__fade__and__show__circle"></div>
-  </div>
-
-    <script src="navbar.js"></script>
-</body>
+    </section>
+    
+  </body>
 </html>
