@@ -1,7 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html{
+  /* background-image: url('https://t3.ftcdn.net/jpg/06/55/48/22/360_F_655482254_1k1yrQACCvforJsBqcLgQgJAuoPSzg3X.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.2; */
 }
 .navbar{
   background-color: #333;
