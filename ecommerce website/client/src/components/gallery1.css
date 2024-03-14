@@ -12,10 +12,10 @@ body {
     position: relative;
     /* border: 2px solid red; */
     
-    margin-top: 20px;
+    margin-top: 70px;
     --size: min(60vmin, 400px);
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 
